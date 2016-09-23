@@ -1,0 +1,58 @@
+/*
+Theme Name: Lucky Girl
+Version: 1
+Theme URI: http://cassenza.com
+Description: Design for the Lucky Fragrance Fanlisting
+Author: Cristina Assenza
+
+*/
+
+body {
+background:url("images/bg_repeat.jpg") repeat top left;
+font: 60%/160% Tahoma, Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+text-align:center;
+ }
+ 
+ a:link,a:visited,a:active {
+color:#FF026D;
+cursor: help;
+text-decoration: underline;
+}
+
+a:hover {
+color:#000;
+cursor: help;
+text-decoration:none;
+}
+
+#container {
+background: url("images/header.jpg") no-repeat top left;
+width:298px;
+height:397px;
+margin: 0 auto;
+text-align: left;
+}
+
+#content {
+float:left;
+background:none;
+width:255px;
+height:165px;
+padding:5px;
+border:none;
+text-align:left;
+margin:195px 5px 0px 15px;
+}
+
+img { 
+border:0;
+}
+
+input, option, select, textarea  {
+border: 1px solid #000000;
+background: #fff;
+color: #000;
+}
+
